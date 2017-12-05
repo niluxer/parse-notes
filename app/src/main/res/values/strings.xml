@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ParseApp</string>
+    <string name="parse_server_url">http://172.20.11.60:1337/parse</string>
+    <string name="parse_app_id">intercambio-app</string>
+</resources>

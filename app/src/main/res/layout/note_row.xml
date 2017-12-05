@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvNote"
+        android:drawableLeft="@mipmap/ic_speaker_notes_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:text="fecha"
+        android:id="@+id/tvNoteCreatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvNote"
+        android:textColor="#ccc"
+        android:textStyle="italic"
+        android:textSize="10dp"/>
+
+    <ImageButton
+        android:id="@+id/imgNoteDelete"
+        android:src="@mipmap/ic_delete_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
